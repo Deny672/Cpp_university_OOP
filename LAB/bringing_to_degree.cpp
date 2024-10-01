@@ -24,7 +24,7 @@ void bringing_to_degree::Display()
     cout << "res = " << res << endl;
 }
 
-bringing_to_degree bringing_to_degree::Degree(bringing_to_degree m) {
+bringing_to_degree bringing_to_degree::Power(bringing_to_degree m) {
     bringing_to_degree temp{};
 
     // Перевірка на нульову основу і від'ємний показник (0^(-b) не визначене)

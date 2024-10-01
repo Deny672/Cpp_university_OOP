@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	bringing_to_degree a, b, c;
 	b.Read();
-	c = b.Degree(b);
+	c = b.Power(b);
 	c.Display();
 
 
