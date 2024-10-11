@@ -12,17 +12,3 @@ int main() {
 
 	system("pause");
 }
-
-
-//int main() {
-//	bringing_to_degree a, b, c;
-//	a = a.Init(2, 4);
-//	a.Display();
-//	b.Read();
-//	b.Display();
-//	c = a.Degree(b);
-//	c.Display();
-//
-//
-//	system("pause");
-//}
