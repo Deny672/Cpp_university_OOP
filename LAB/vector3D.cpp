@@ -120,25 +120,19 @@ bool vector3D::ComparisonTwoVectors(vector3D m, vector3D n)
     }
 }
 
-
-
-/*
-bringing_to_degree bringing_to_degree::Power(bringing_to_degree m) {
-    bringing_to_degree temp{};
-
-    // Перевірка на нульову основу і від'ємний показник (0^(-b) не визначене)
-    if (m.first == 0 && m.second < 0) {
-        throw ("Неможливо піднести нуль до від'ємного степеня.");
-    }
-
-    // Перевірка на від'ємну основу і дробовий показник (щоб уникнути комплексних чисел)
-    if (m.first < 0 && m.second != static_cast<int>(m.second)) {
-        throw ("Неможливо піднести від'ємне число до дробового степеня без комплексного результату.");
-    }
-
-    // Якщо перевірки пройдені, викликаємо pow()
-    temp.res = std::pow(this->first, this->second);
-    return temp;
+double vector3D::LengthVector(vector3D m)
+{
+    return sqrt( (pow(m.coord_x, 2) + pow(m.coord_y, 2) + pow(m.coord_z, 2)));
 }
 
-*/
+bool vector3D::ComparisonLenghtTwoVectors(vector3D m, vector3D n)
+{
+    if (m.LengthVector(m) == n.LengthVector(n)) {
+        return true;
+    }
+    else { 
+        return false; 
+    }
+
+}
+

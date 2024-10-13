@@ -68,6 +68,24 @@ int main() {
 	cout << "Method ComparisonTwoVectors true " << endl;
 	cout << "a == b = " << a.ComparisonTwoVectors(a, b) << endl;
 
+	//Method LengthVector
+	a.SetCoord_x(10);
+	a.SetCoord_y(10);
+	a.SetCoord_z(20);
+	cout << "Method LengthVector" << endl;
+	cout << "Lenght a = " << a.LengthVector(a);
+
+	//Method ComparisonLenghtTwoVectors false
+	cout << "Method ComparisonLenghtTwoVectors false" << endl;
+	cout << "Lenght a == Lenght b = " << a.ComparisonLenghtTwoVectors(a, b) << endl;
+
+	//Method ComparisonLenghtTwoVectors true
+	b.SetCoord_x(10);
+	b.SetCoord_y(10);
+	b.SetCoord_z(20);
+	cout << "Method ComparisonLenghtTwoVectors true" << endl;
+	cout << "Lenght a == Lenght b = " << a.ComparisonLenghtTwoVectors(a, b) << endl;
+
 
 	system("pause");
 }

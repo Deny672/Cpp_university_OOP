@@ -25,7 +25,7 @@ public:
 	vector3D ScalarMulVectors(vector3D m, vector3D n); //просто помножити х у та z векторів та додати тобто x1*x2 + y1*y2 + z1*z2
 	vector3D MulVectorInScalar(vector3D m, double n); // Просто множимо x, y, z на число
 	bool ComparisonTwoVectors(vector3D m, vector3D n); // сравнить координаты х y и z чтобы они были одинаковыми
-	//vector3D LengthVector(vector3D m); // sqrt( (x)^2+(y)^2+(z)^2 )
-	//vector3D ComparisonLenghtTwoVectors(vector3D m); //используем вычисление длинны и сравниваем
+	double LengthVector(vector3D m); // sqrt( (x)^2+(y)^2+(z)^2 )
+	bool ComparisonLenghtTwoVectors(vector3D m, vector3D n); //используем вычисление длинны и сравниваем
 	
 };
