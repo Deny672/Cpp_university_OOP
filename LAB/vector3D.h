@@ -33,4 +33,10 @@ public:
 	vector3D(double x, double y);
 	vector3D(double x, double y, double z);
 	vector3D(const vector3D& other);
+
+	vector3D operator + (vector3D m1);
+	vector3D operator - (vector3D m1);
+	vector3D operator * (vector3D m1);
+	vector3D operator / (vector3D m1);
+
 };

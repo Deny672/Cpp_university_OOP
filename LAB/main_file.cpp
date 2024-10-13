@@ -110,7 +110,22 @@ int main() {
 	b.SetCoord_z(20);
 	cout << "Method ComparisonLenghtTwoVectors true" << endl;
 	cout << "Lenght a == Lenght b    = " << a.ComparisonLenghtTwoVectors(a, b) << endl;
+	
 
-
+	
+	cout << "Coord a: " << a.ToString() << endl;
+	cout << "Coord b: " << b.ToString() << endl;
+	cout << "a + b" << endl;
+	d = a + b;
+	d.Display();
+	cout << "a - b" << endl;
+	d = a - b;
+	d.Display();
+	cout << "a * b" << endl;
+	d = a * b;
+	d.Display();
+	cout << "a / b" << endl;
+	d = a / b;
+	d.Display();
 	system("pause");
 }

@@ -171,3 +171,38 @@ vector3D::vector3D(const vector3D& other)
     coord_z = other.coord_z;
 }
 
+vector3D vector3D::operator+(vector3D m1)
+{
+    vector3D tmp;
+    tmp.coord_x = this->coord_x + m1.coord_x;
+    tmp.coord_y = this->coord_y + m1.coord_y;
+    tmp.coord_z = this->coord_z + m1.coord_z;
+    return tmp;
+}
+
+vector3D vector3D::operator-(vector3D m1)
+{
+    vector3D tmp;
+    tmp.coord_x = this->coord_x - m1.coord_x;
+    tmp.coord_y = this->coord_y - m1.coord_y;
+    tmp.coord_z = this->coord_z - m1.coord_z;
+    return tmp;
+}
+
+vector3D vector3D::operator*(vector3D m1)
+{
+    vector3D tmp;
+    tmp.coord_x = this->coord_x * m1.coord_x;
+    tmp.coord_y = this->coord_y * m1.coord_y;
+    tmp.coord_z = this->coord_z * m1.coord_z;
+    return tmp;
+}
+
+vector3D vector3D::operator/(vector3D m1)
+{
+    vector3D tmp;
+    tmp.coord_x = this->coord_x / m1.coord_x;
+    tmp.coord_y = this->coord_y / m1.coord_y;
+    tmp.coord_z = this->coord_z / m1.coord_z;
+    return tmp;
+}
