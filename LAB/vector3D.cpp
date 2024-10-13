@@ -136,3 +136,38 @@ bool vector3D::ComparisonLenghtTwoVectors(vector3D m, vector3D n)
 
 }
 
+vector3D::vector3D()
+{
+    coord_x = 0.0;
+    coord_y = 0.0;
+    coord_z = 0.0;
+}
+
+vector3D::vector3D(double z)
+{
+    coord_x = 0.0;
+    coord_y = 0.0;
+    coord_z = z;
+}
+
+vector3D::vector3D(double z, double y)
+{
+    coord_x = 0.0;
+    coord_y = y;
+    coord_z = z;
+}
+
+vector3D::vector3D(double x, double y, double z)
+{
+    coord_x = x;
+    coord_y = y;
+    coord_z = z;
+}
+
+vector3D::vector3D(const vector3D& other)
+{
+    coord_x = other.coord_x;
+    coord_y = other.coord_y;
+    coord_z = other.coord_z;
+}
+

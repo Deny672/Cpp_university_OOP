@@ -28,4 +28,9 @@ public:
 	double LengthVector(vector3D m); // sqrt( (x)^2+(y)^2+(z)^2 )
 	bool ComparisonLenghtTwoVectors(vector3D m, vector3D n); // Використовуємо функцію для обчислення довжини і порівнюємо 2 вектора
 	
+	vector3D();
+	vector3D(double z);
+	vector3D(double x, double y);
+	vector3D(double x, double y, double z);
+	vector3D(const vector3D& other);
 };

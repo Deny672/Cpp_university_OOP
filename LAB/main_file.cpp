@@ -6,6 +6,31 @@ using namespace std;
 int main() {
 	vector3D a, b, c;
 
+	//first constructor
+	cout << "vector a" << endl;
+	a.Display();
+
+	//second constructor
+	cout << "vector d" << endl;
+	vector3D d(1, 2, 3);
+	d.Display();
+
+	//third constructor
+	cout << "vector k" << endl;
+	vector3D k(1, 2);
+	k.Display();
+
+	//fourth constructor
+	cout << "vector l" << endl;
+	vector3D l(1);
+	l.Display();
+
+	//fifth constructor
+	cout << "vector u" << endl;
+	vector3D u(d);
+	u.Display();
+
+
 	//Method Read
 	cout << "Method Read" << endl;
 	a.Read();
