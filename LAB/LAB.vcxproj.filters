@@ -18,12 +18,12 @@
     <ClCompile Include="main_file.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="bringing_to_degree.cpp">
+    <ClCompile Include="vector3D.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bringing_to_degree.h">
+    <ClInclude Include="vector3D.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

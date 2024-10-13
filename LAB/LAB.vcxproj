@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bringing_to_degree.cpp" />
+    <ClCompile Include="vector3D.cpp" />
     <ClCompile Include="main_file.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bringing_to_degree.h" />
+    <ClInclude Include="vector3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
