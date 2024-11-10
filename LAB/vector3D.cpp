@@ -4,6 +4,7 @@
 #include <string.h>
 #include <string>
 
+
 using namespace std;
 
 vector3D vector3D::Init(double x, double y, double z)

@@ -128,15 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main_file.cpp" />
-    <ClCompile Include="vector3D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StaticLib\StaticLib.vcxproj">
-      <Project>{bbc0d728-cd50-435e-af91-7e25792d9cf4}</Project>
+    <ProjectReference Include="..\StaticLib3\StaticLib3.vcxproj">
+      <Project>{d19d5369-a6b3-41d6-88ab-c6c4fdb0ca43}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="vector3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
