@@ -122,7 +122,7 @@ bool vector3D::ComparisonTwoVectors(vector3D m, vector3D n)
 
 double vector3D::LengthVector(vector3D m)
 {
-    return sqrt( (pow(m.coord_x, 2) + pow(m.coord_y, 2) + pow(m.coord_z, 2)));
+    return sqrt((pow(m.coord_x, 2) + pow(m.coord_y, 2) + pow(m.coord_z, 2)));
 }
 
 bool vector3D::ComparisonLenghtTwoVectors(vector3D m, vector3D n)
@@ -130,8 +130,8 @@ bool vector3D::ComparisonLenghtTwoVectors(vector3D m, vector3D n)
     if (m.LengthVector(m) == n.LengthVector(n)) {
         return true;
     }
-    else { 
-        return false; 
+    else {
+        return false;
     }
 
 }

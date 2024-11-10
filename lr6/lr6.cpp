@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "vector3D.h"
 using namespace std;
 
@@ -38,11 +38,11 @@ int main() {
 	//Method Display
 	cout << "Method Display" << endl;
 	a.Display();
-	
+
 	//Method ToString
 	cout << "Method ToString" << endl;
 	cout << a.ToString() << endl << endl;
-	
+
 	//Method GetCoord_x and SetCoord_x
 	cout << "Method GetCoord_x and SetCoord_x" << endl;
 	cout << "Before method SetCoord_x x = " << a.GetCoord_x() << endl;
@@ -110,9 +110,9 @@ int main() {
 	b.SetCoord_z(20);
 	cout << "Method ComparisonLenghtTwoVectors true" << endl;
 	cout << "Lenght a == Lenght b    = " << a.ComparisonLenghtTwoVectors(a, b) << endl;
-	
 
-	
+
+
 	cout << "Coord a: " << a.ToString() << endl;
 	cout << "Coord b: " << b.ToString() << endl;
 	cout << "a + b" << endl;
